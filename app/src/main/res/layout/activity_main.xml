@@ -1,0 +1,24 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <Button
+        android:id="@+id/open_play_store"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Abrir Play Store" />
+
+    <Button
+        android:id="@+id/unregister_play_store"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Remover Permissão Play Store" />
+
+    <Button
+        android:id="@+id/register_play_store"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Retornar Permissão Play Store" />
+</LinearLayout>
